@@ -8,6 +8,11 @@ Included features:
 - Number of guess rows can range from 1 to 8 
 - Number of letters can range from 4 to 7
 
+## Requirements
+
+- Python 3.x
+- The pygame library
+
 ## Usage
 
 ```py

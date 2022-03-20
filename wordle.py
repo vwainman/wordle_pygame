@@ -13,6 +13,7 @@ class WordleUI:
     """CLI optional kwargs
     - mode = single player or multiplayer
     - letters = 4 to 7
+    - rows = 1 to 8
     - language = english or français
     - text_directory_path = folder path
     - allowed_guesses_file_name = file name
