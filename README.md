@@ -1,4 +1,3 @@
----
 # Wordle Pygame
 
 A "just for fun" project cloning features of the Wordle game and putting my own spin on it with the help of the pygame library. I do not reserve any rights to the Wordle IP.
@@ -16,19 +15,21 @@ from wordle import WordleUI
 
 WordleUI(**dict(arg.split('=') for arg in sys.argv[1:]))
 ```
-Keyword arguments:
-    - mode = "single player" or "multiplayer"
-    - letters = 4 to 7
-    - rows = 1 to 8
-    - language = "english" or "français"
-    - text_directory_path = "folder path"
-    - allowed_guesses_file_name = "file name"
-    - possible_solutions_file_name = "file name"
+
+Command line keyword arguments:
+- mode = "single player" or "multiplayer"
+- letters = 4 to 7
+- rows = 1 to 8
+- language = "english" or "français"
+- text_directory_path = "folder path"
+- allowed_guesses_file_name = "file name"
+- possible_solutions_file_name = "file name"
+
 ```bash
 $ python wordle.py mode="single player" ...
-or 
+# or 
 $ python wordle.py
-for default play
+# for default play
 ```
 
 ## Development
